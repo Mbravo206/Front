@@ -15,7 +15,7 @@ export default function Index() {
     const Mensaje = {
       mensajes: mensaje, //el de la interfaz  el primero de mongo
     };
-    axios.post("https://192.168.1.27:5000/subir", Mensaje)
+    axios.post("https://taller-vl2a.onrender.com/subir", Mensaje)
   
     .then(function (res) {
       alert("el mensjae se envío");
