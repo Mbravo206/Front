@@ -12,7 +12,7 @@ function Futuro() {
 
   function traerMensajes() {
     axios
-      .get(" https://192.168.1.27:5000/recibir")
+      .get(" https://taller-vl2a.onrender.com/recibir")
       .then(function (res) {
         if (res.data.status) {
           setMensajeLocal(res.data.datos.mensaje);
